@@ -7,7 +7,7 @@ fn main() {
        .insert_resource(WindowDescriptor{
           width : consts::MIN_WIDTH,
           height : consts::MIN_HEIGHT,
-          transparent : true,
+          //transparent : true,
           title : String::from("Test"),
           .. Default::default()
        })
